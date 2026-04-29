@@ -16,10 +16,14 @@
 
 ## Development
 
-```sh
-task build   # build binary to bin/
-task check   # run fmt, vet, lint, vuln, and test
-```
+This project uses [Task](https://taskfile.dev) to automate common development workflows locally. The main ones are:
+
+| Command | Description |
+|---|---|
+| `task check` | Run all checks: fmt, vet, lint, vuln, and test |
+| `task build` | Run all checks and build binary to `bin/` |
+
+For the full list, see [Taskfile.yaml](Taskfile.yaml).
 
 ## Pull Requests
 
