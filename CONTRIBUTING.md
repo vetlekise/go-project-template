@@ -10,6 +10,7 @@
 > [!NOTE]
 > Go installs binaries to `$GOPATH/bin` (default: `$HOME/go/bin`). Make sure this is in your `$PATH`:
 > ```sh
+> # macOS example:
 > echo 'export PATH="$PATH:$HOME/go/bin"' >> ~/.zshrc && source ~/.zshrc
 > ```
 
