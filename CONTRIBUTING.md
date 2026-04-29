@@ -7,6 +7,11 @@
 - [staticcheck](https://staticcheck.dev): `go install honnef.co/go/tools/cmd/staticcheck@latest`
 - [govulncheck](https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck): `go install golang.org/x/vuln/cmd/govulncheck@latest`
 
+> [!NOTE] Go installs binaries to `$GOPATH/bin` (default: `$HOME/go/bin`). Make sure this is in your `$PATH`:
+> ```sh
+> echo 'export PATH="$PATH:$HOME/go/bin"' >> ~/.zshrc && source ~/.zshrc
+> ```
+
 ## Development
 
 ```sh
