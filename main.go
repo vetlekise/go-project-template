@@ -1,2 +1,2 @@
-// Package main is the entry point for the [project-name] tool.
+// Package main is the primary entry point.
 package main
