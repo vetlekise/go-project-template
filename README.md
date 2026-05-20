@@ -17,14 +17,12 @@ A more detailed description of the project, its purpose, and what problems it so
      BINARY: <project-name>
    ```
 
-3. Update `main.go` — replace the package comment with a description of your tool.
-
-4. Fill in this `README.md`:
+3. Fill in this `README.md`:
    - Replace `[Project Name]` with your project name.
    - Update installation URLs (`<username>/<project-name>`).
    - Write your own **Usage** section.
 
-5. Delete this **Setup** section.
+4. Delete this **Setup** section.
 
 ## Features
 
